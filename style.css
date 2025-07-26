@@ -108,3 +108,43 @@ img {
   transition: transform .3s linear;
   border-color:#202020;
 }
+
+
+@media (max-width: 1024px) {
+  body {
+    font-size: 14px;
+  }
+  .home__categories-item {
+    width: 33,3%;
+    padding: 0 .5em;
+  }
+  .home__categories-header {
+    font-size: 24px;
+  }
+  .hcategory__item-name {
+    font-size: 18px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .home__main_field {
+  padding: 0 .5em;
+  }
+  .home__categories-item {
+    width: 50%;
+    padding: 0 .5em;
+  }
+  .home__categories-header {
+    font-size: 20px;
+  }
+  .hcategory__item-name {
+    font-size: 16px;
+  }
+  .hcategory__item-image {
+    margin-bottom: .5rem;
+  }
+  header {
+    padding: .5em 1em;
+  }
+}
