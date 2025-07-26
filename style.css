@@ -22,10 +22,11 @@ header {
 main {
   padding: 0;
   font: 'montserrat-zg';
+  background-color: #303030;
+  color: white
 }
 
 footer {
-  border-top: 1px solid #eee;
   padding: 4.8rem 0;
   text-align: center;
   background: #252525;
@@ -34,7 +35,7 @@ footer {
 
 
 body a {
-  color: #202020;
+  color: white;
   text-decoration: none;
   outline: none;
   transition: all .3s ease-in-out;
@@ -116,7 +117,7 @@ img {
 .hcategory__item-name a:hover {
 
   transition: transform .3s linear;
-  border-color:#202020;
+  border-color:white;
 }
 
 
