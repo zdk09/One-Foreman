@@ -147,8 +147,17 @@ img {
   fill: white;
   display: inline-block;
   height: 1em;
-  width: 1em;
+  width: 1.2em;
   transition: fill 0.3s ease;
+  padding: 0 .2em;
+}
+
+.icon-cart {
+    display: inline-block;
+    vertical-align: top;
+    fill: currentcolor;
+    stroke: currentcolor;
+    transform: translateY(5px);
 }
 
 .icon:hover {
@@ -195,7 +204,7 @@ img {
     margin-bottom: .5rem;
   }
   header {
-    padding: .5em 1em;
+    padding: .5em 0;
     position: fixed;
     width: 100%;
     z-index: 9999;
